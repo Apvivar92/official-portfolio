@@ -6,15 +6,18 @@ body {
   background-size: cover;
 }
 
-.intro {
+.intro, h1, h2{
   display: flex;
   align-items: center;
   flex-flow: column wrap;
   color: rgb(0, 0, 0);
+  font-family: Bangers;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
 .mybtn {
-  background-color: #69fb95;
+  background-color: hsl(167, 97%, 73%);
 }
 
 /* The sidebar menu */
@@ -44,6 +47,16 @@ body {
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
   color: #f1f1f1;
+}
+
+.sidebar img {
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-end;
+  padding: 15px;
+  max-width: 100%;
 }
 
 /* Position and style the close button (top right corner) */
