@@ -79,36 +79,36 @@
 }
 
 /* Set up hover for each of the divs creating the white blocks */
-.hamburger:hover{
+.hamburgerActive{
   filter:none;
   transform:rotate(360deg)
 }
 
-.hamburger:hover > div:nth-child(1){
+.hamburgerActive > div:nth-child(1){
   background-color: ghostwhite;
   animation-name: top;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
-.hamburger:hover > div:nth-child(2){
+.hamburgerActive > div:nth-child(2){
   animation-name: middle;
   animation-duration: .1s;
   animation-fill-mode: forwards;
 }
 
-.hamburger:hover > div:nth-child(3){
+.hamburgerActive > div:nth-child(3){
   background-color: ghostwhite;
   animation-name: bottom;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
-div.hamburger:hover{
+div.hamburgerActive {
   transform: rotate(360deg);
 }
 
-/* Create animation to make hamburger menu spin */
+/* Create animation to make hamburger menu spin */  
 @keyframes top {
   from {
     transform: none;
