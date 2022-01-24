@@ -1,6 +1,9 @@
+.background img {
+  position: absolutely;
+  z-index: 0;
+}
 
-
-.mybtn{
+.mybtn {
   background-color: #69fb95;
 }
 
@@ -102,10 +105,6 @@
   animation-name: bottom;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-}
-
-div.hamburgerActive {
-  transform: rotate(360deg);
 }
 
 /* Create animation to make hamburger menu spin */  
