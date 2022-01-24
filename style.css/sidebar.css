@@ -1,6 +1,16 @@
-.background img {
-  position: absolutely;
-  z-index: 0;
+body {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/217/369/original/vector-colourful-purple-landscape-illustration.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  color: rgb(0, 0, 0);
 }
 
 .mybtn {
@@ -44,22 +54,6 @@
   font-size: 36px;
   margin-left: 50px;
 }
-
-/* The button used to open the sidebar */
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
-
-.openbtn:hover {
-  background-color: #444;
-}
-
-
 
 /* adjust hamburger container */
 .hamburger {
